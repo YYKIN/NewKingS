@@ -1,0 +1,41 @@
+.home-container {
+  display: flex; /* 使用flex布局 */
+  flex-direction: column; /* 垂直方向的列布局 */
+  align-items: center; /* 内容居中对齐 */
+  height: 100vh; /* 设置高度为视窗高度 */
+  overflow: hidden; /* 隐藏溢出内容 */
+}
+
+@media screen and (max-height: 600px) {
+  .home-container {
+    justify-content: center; /* 当视窗高度小于等于600px时，内容垂直居中对齐 */
+  }
+}
+
+.announcement-image,
+.announcement,
+.ranking,
+.nft-selection {
+  width: 80%; /* 宽度为父容器的80% */
+  margin-top: 2%; /* 上边距为父容器高度的2% */
+  padding: 10px; /* 添加10px的内边距 */
+  border: 1px solid black; /* 1px的实线边框，边框颜色为黑色 */
+  background-color: white; /* 背景颜色为白色 */
+}
+
+.nft-selection {
+  display: flex; /* 使用flex布局 */
+  justify-content: space-between; /* 内容在水平方向上均匀分布 */
+  align-items: center; /* 内容居中对齐 */
+}
+
+.upgrade-button {
+  width: 120px; /* 宽度为120px */
+  height: 40px; /* 高度为40px */
+  margin-top: 2%; /* 上边距为父容器高度的2% */
+  border: 1px solid black; /* 1px的实线边框，边框颜色为黑色 */
+  background-color: white; /* 背景颜色为白色 */
+  display: flex; /* 使用flex布局 */
+  justify-content: center; /* 内容水平居中对齐 */
+  align-items: center; /* 内容垂直居中对齐 */
+}

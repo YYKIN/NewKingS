@@ -1,0 +1,66 @@
+.nft-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nft-selection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.nft-item {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nft-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  padding: 20px;
+  background-color: white;
+}
+
+.nft-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.nft-info img {
+  margin: 5px;
+  max-width: 100%;
+  height: auto;
+  width: 33.33%;
+  box-sizing: border-box;
+}
+
+.nft-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nft-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}

@@ -1,0 +1,28 @@
+.notice-title-center {
+  text-align: center;
+}
+.notice-title {
+  margin-top: 10px;
+}
+
+.notice-content {
+  margin: 10px;
+}
+
+.notice-info {
+  margin: 10px;
+}
+.notice img {
+  max-width: 100%; /* 设置图片的最大宽度为100% */
+  height: auto; /* 自动调整图片的高度，保持纵横比 */
+  margin: 10px auto; /* 设置图片的外边距，居中显示 */
+}
+.back-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}

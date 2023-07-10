@@ -1,0 +1,17 @@
+.login-container {
+  display: flex; /* 使用flex布局 */
+  /* align-items: center; /* 垂直居中对齐 */
+  justify-content: center; /* 水平居中对齐 */
+  min-height: 100vh; /* 设置最小高度为视窗高度 */
+}
+
+.button-container {
+  display: flex; /* 使用flex布局 */
+  flex-direction: column; /* 垂直方向的列布局 */
+  gap: 10px; /* 间距为10px */
+}
+
+.logged-in,
+.address {
+  text-align: center; /* 内容居中对齐 */
+}
